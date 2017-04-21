@@ -1,8 +1,109 @@
 body{
 	margin: 0;
 	padding: 0;
+	color: white;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	background: #B2B3B5;
 }
 header{
-	background: ;
+	background: #FF0004;
 	width: 100%;
+	height: 80px;
+}
+.mh{
+	margin: 0 15%;
+}
+/*estilos del header*/
+.circle{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background: white;
+	text-align: center;
+	padding-top: 7px;
+	color: #FF0004;
+	margin: 0 5px;
+}
+.contenido-header{
+	position: relative;
+	padding-top: 20px;
+}
+.div-buscar{
+	position: absolute;
+	top: 30px;
+	right: 0;
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 5px;
+}
+.div-icon{
+	position: relative;
+	top: -20px;
+	margin-left: 100px;
+	display: inline-block;
+}
+.div-icon-logo{
+	display: inline-block;
+}
+/*estilos navBar*/
+nav{
+	background: #333340;
+	width: 100%;
+}
+ .contenido-nav{
+ 	padding: 12px 0;
+}
+.contenido-nav a{
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
+	font-size: 12px;
+}
+/*Estilo Cuerpo*/
+.div-contenido{
+
+	background: white;
+}
+.backgrey{
+	position: relative;
+	box-sizing: border-box;
+	background-color: #333340;
+	margin: 5px;
+}
+.circle-span{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background: #b2b3b5;
+	color: white;
+	font-size: 10px;
+	padding: 2px;
+	margin: 0 3px;
+}
+.circle-span span{
+	font-size: 10px;
+}
+.portada{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 60%;
+	padding: 10px;
+}
+#noticia-grande{
+	height: 270px;
+}
+.fondo{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-image: url("../img/spritesheet.png");
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 270px;
 }
