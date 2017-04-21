@@ -65,7 +65,7 @@ nav{
 }
 /*Estilo Cuerpo*/
 .div-contenido{
-
+	height: 600px;
 	background: white;
 }
 .backgrey{
@@ -73,6 +73,7 @@ nav{
 	box-sizing: border-box;
 	background-color: #333340;
 	margin: 5px;
+	height: 250px;
 }
 .circle-span{
 	box-sizing: border-box;
@@ -95,15 +96,63 @@ nav{
 	width: 60%;
 	padding: 10px;
 }
-#noticia-grande{
-	height: 270px;
-}
 .fondo{
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: 0;	
 	background-image: url("../img/spritesheet.png");
 	background-repeat: no-repeat;
-	width: 50%;
+}
+.descripcion{
+	position: absolute;
+	left: 0;	
+}
+.descripcion p{
+	display: inline-block;
+	font-size: 25px;
+	margin: 5px;
+	padding: 10px;
+}
+.ml20{
+	margin-left: 20px;
+}
+.noticia-mediana{
+	display: inline-block;
+	width: 47.5%;
+	height: 300px;
+}
+.uno{
+	background-position: -1214px 0;
+	right: 0;
+	width: 60%;
 	height: 270px;
+}
+.dos{
+	background-position: -243px 0;
+	height: 165px;
+	width: 100%;
+}
+.tres{
+	background-position: -865px 0;
+	height: 165px;
+	width: 100%;
+}
+.d1{
+	top: 0;
+	width: 40%;
+}
+.d2{
+	top: 165px;
+	bottom: 0;
+	width: 100%;
+}
+.d2 p{
+	font-size: 20px;
+}
+.post-rb10{
+	position: absolute;
+	right: 5px;
+	bottom: 10px;
+}
+.mr8{
+	margin-right: 8px;
 }
