@@ -136,6 +136,11 @@ nav{
 	height: 165px;
 	width: 100%;
 }
+.retrato{
+	background-position: -1602px 0;
+	height: 100px;
+	width: 70%;
+}
 .d1{
 	top: 0;
 	width: 40%;
@@ -155,4 +160,21 @@ nav{
 }
 .mr8{
 	margin-right: 8px;
+}
+
+#editorial{
+	position: absolute;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 27%;
+	padding: 10px;
+}
+#editorial>p{
+	color: red;
+}
+
+.fondo-rojo{
+	position: relative;
+	background-color: red;
+	padding: 15px;
 }
