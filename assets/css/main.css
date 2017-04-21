@@ -98,7 +98,6 @@ nav{
 }
 .fondo{
 	position: absolute;
-	top: 0;	
 	background-image: url("../img/spritesheet.png");
 	background-repeat: no-repeat;
 }
@@ -123,6 +122,7 @@ nav{
 .uno{
 	background-position: -1214px 0;
 	right: 0;
+	top: 0;	
 	width: 60%;
 	height: 270px;
 }
@@ -130,16 +130,20 @@ nav{
 	background-position: -243px 0;
 	height: 165px;
 	width: 100%;
+	top: 0;	
 }
 .tres{
 	background-position: -865px 0;
 	height: 165px;
 	width: 100%;
+	top: 0;	
 }
 .retrato{
+	bottom: 0;
+	right: 0;
 	background-position: -1602px 0;
-	height: 100px;
-	width: 70%;
+	height: 80px;
+	width: 50px;
 }
 .d1{
 	top: 0;
@@ -176,5 +180,5 @@ nav{
 .fondo-rojo{
 	position: relative;
 	background-color: red;
-	padding: 15px;
+	padding: 5px;
 }
